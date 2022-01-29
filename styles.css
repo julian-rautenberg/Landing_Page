@@ -66,6 +66,10 @@ a{
 button{
     background-color: #3882f6;
     border-radius:5px;
+    color: #f9faf8;
+    box-shadow: none;
+    border: none;
+    padding: 8px 24px;
 }
 .quote{
     background-color: #e5e7eb;
