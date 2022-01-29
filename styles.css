@@ -1,4 +1,10 @@
-.herotext, .footer {
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display:flex;
+    flex-direction: column;
+}
+
+.header, .herotext, .footer {
     background-color: #1F2937;
 }
 
@@ -6,11 +12,19 @@
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    display:flex;
 }
 
-.link{
+ul{
+    padding:0px;
+    margin:0px;
+    list-style: none;
+}
+
+a{
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration-style: none;
 }
 
 .header{
