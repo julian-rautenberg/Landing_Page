@@ -112,4 +112,17 @@ button{
 }
 .quote{
     background-color: #e5e7eb;
+    display:flex;
+    font-style: italic;
+    flex-direction: column;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.boldquote
+{
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    display:flex;
+    flex-direction: row-reverse;
 }
