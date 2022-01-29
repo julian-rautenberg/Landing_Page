@@ -54,7 +54,7 @@ a{
 {
     flex:1;
 }
-img
+.herotext img
 {
     flex:1;
     text-align: center;
@@ -77,6 +77,38 @@ button{
     box-shadow: none;
     border: none;
     padding: 8px 24px;
+}
+
+.center
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+}
+.media
+{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    padding:20px;
+    flex-wrap: wrap;
+    padding-bottom:30px;
+}
+.imgph{
+    border: solid blue;
+    border-radius: 5px;
+    width:100px;
+    height:100px;
+    display:flex;
+    }
+
+.media p
+{
+    max-width: 100px;
+
 }
 .quote{
     background-color: #e5e7eb;
