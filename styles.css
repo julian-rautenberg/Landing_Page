@@ -1,20 +1,32 @@
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     display:flex;
     flex-direction: column;
-}
+    
+    }
+    
 
-.header, .herotext, .footer {
+
+.header, .herotext, .footer, .center, .quote, .card 
+{
+    padding-left: 100px;
+    padding-right:100px;
+}
+.header, .herotext, .footer
+{
     background-color: #1F2937;
 }
-
-.herotext{
-    font-size: 48px;
-    font-weight: extra-bold;
+.header{
+    font-size: 24px;
     color: #f9faf8;
     display:flex;
+    justify-content: space-between;
 }
 
+.logo{
+    padding:10px;
+    font-weight: bold;
+}
 ul{
     padding:0px;
     margin:0px;
@@ -24,13 +36,18 @@ ul{
 a{
     font-size: 18px;
     color: #e5e7eb;
-    text-decoration-style: none;
+    text-decoration: none;
 }
 
-.header{
-    font-size: 24px;
+
+.herotext{
+    font-size: 48px;
+    font-weight: extra-bold;
     color: #f9faf8;
+    display:flex;
 }
+
+
 button{
     background-color: #3882f6;
 }
