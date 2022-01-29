@@ -156,3 +156,9 @@ button{
     flex:1;
     align-self:center;
 }
+
+.footer
+{
+    color: white;
+    text-align: center;
+}
