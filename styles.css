@@ -54,6 +54,13 @@ a{
 {
     flex:1;
 }
+img
+{
+    flex:1;
+    text-align: center;
+    background-color: #78797a;
+    height:96px;
+}
 .herotextheader
 {
     font-size: 48px;
